@@ -1,0 +1,19 @@
+development: &defaults
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  database: backend_development
+  username:
+  password:
+
+test:
+  <<: *defaults
+  database: backend_test
+
+staging:
+  <<: *defaults
+  database: backend_staging
+
+production:
+  <<: *defaults
+  database: backend_production
