@@ -8,7 +8,6 @@ data = JSON.parse(json_from_file)
 
 data.each do |hsh|
   attributes = {
-    id: hsh['id'],
     city: hsh['city'],
     start_date: Date.strptime(hsh['start_date'], '%m/%d/%Y'),
     end_date: Date.strptime(hsh['end_date'], '%m/%d/%Y'),
