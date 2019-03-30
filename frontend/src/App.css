@@ -16,3 +16,41 @@
   line-height: 1.5;
   border-radius: .25rem;
 }
+
+.date {
+  margin-right: 20px;
+}
+
+.date-range {
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  padding: .25rem .5rem;
+  font-size: .875rem;
+  line-height: 1.5;
+  border-radius: .2rem;
+  margin-bottom: 2.6px;
+  cursor: pointer;
+  transition: color .15s ease-in-out,
+              background-color .15s ease-in-out,
+              border-color .15s ease-in-out,
+              box-shadow .15s ease-in-out;
+}
+
+.btn:hover {
+  text-decoration: none;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
