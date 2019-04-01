@@ -13,6 +13,13 @@
 
 ## Setup
 
+Clone the repository and go to the `sms-challenge` folder:
+
+```
+git clone git@github.com:lasong/sms-challenge.git
+cd sms-challenge
+```
+
 Before you run the application for the first time, you must create the database, run migrations and seed the database:
 
 ```
