@@ -99,12 +99,14 @@ export default class Information extends Component {
     return (
       <div>
         <div className='date-range'>
+          <label>Start Date </label>
           <DatePicker
             onChange={this.handleStartDateChange.bind(this)}
             value={this.state.startDate}
             locale='en-US'
             className='date'
           />
+          <label>End Date </label>
           <DatePicker
             onChange={this.handleEndDateChange.bind(this)}
             value={this.state.endDate}

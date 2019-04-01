@@ -7,6 +7,8 @@ RUN apk add --no-cache --update build-base \
                                 postgresql-dev \
                                 tzdata
 
+RUN gem install bundler
+
 RUN mkdir /usr/src/backend
 WORKDIR /usr/src/backend
 
