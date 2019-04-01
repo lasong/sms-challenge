@@ -12,3 +12,5 @@
 !/backend/log/.keep
 /backend/tmp
 /backend/vendor/bundle
+
+/frontend/node_modules
